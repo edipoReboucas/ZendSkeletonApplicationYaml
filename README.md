@@ -1,28 +1,20 @@
-ZendSkeletonApplication
+ZendSkeletonApplicationYaml
 =======================
 
 Introduction
 ------------
-This is a simple, skeleton application using the ZF2 MVC layer and module
-systems. This application is meant to be used as a starting place for those
-looking to get their feet wet with ZF2.
+This is a demonstration of how use Zend Framework 2 with Yaml configuration files.
 
 Installation
 ------------
 
-Using Composer (recommended)
+Using Composer
 ----------------------------
-The recommended way to get a working copy of this project is to clone the repository
-and use `composer` to install dependencies using the `create-project` command:
-
-    curl -s https://getcomposer.org/installer | php --
-    php composer.phar create-project -sdev --repository-url="https://packages.zendframework.com" zendframework/skeleton-application path/to/install
-
-Alternately, clone the repository and manually invoke `composer` using the shipped
+Clone the repository and manually invoke `composer` using the shipped
 `composer.phar`:
 
     cd my/project/dir
-    git clone git://github.com/zendframework/ZendSkeletonApplication.git
+    git clone git://github.com/edipoReboucas/ZendSkeletonApplicationYaml.git
     cd ZendSkeletonApplication
     php composer.phar self-update
     php composer.phar install
@@ -43,7 +35,7 @@ Using Git submodules
 --------------------
 Alternatively, you can install using native git submodules:
 
-    git clone git://github.com/zendframework/ZendSkeletonApplication.git --recursive
+    git clone git://github.com/edipoReboucas/ZendSkeletonApplicationYaml.git --recursive
 
 Web Server Setup
 ----------------

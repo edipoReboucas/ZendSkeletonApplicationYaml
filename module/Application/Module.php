@@ -11,6 +11,7 @@ namespace Application;
 
 use Zend\Mvc\ModuleRouteListener;
 use Zend\Mvc\MvcEvent;
+use Zend\Config\Factory as ConfigFactory;
 
 class Module
 {
@@ -23,7 +24,7 @@ class Module
 
     public function getConfig()
     {
-        return include __DIR__ . '/config/module.config.php';
+        return ConfigFactory::fromFile(__DIR__ . '/config/module.config.yaml');
     }
 
     public function getAutoloaderConfig()
