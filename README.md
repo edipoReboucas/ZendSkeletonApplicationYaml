@@ -26,7 +26,7 @@ Another alternative for downloading the project is to grab it via `curl`, and
 then pass it to `tar`:
 
     cd my/project/dir
-    curl -#L https://github.com/zendframework/ZendSkeletonApplication/tarball/master | tar xz --strip-components=1
+    curl -#L https://github.com/edipoReboucas/ZendSkeletonApplication/tarball/master | tar xz --strip-components=1
 
 You would then invoke `composer` to install dependencies per the previous
 example.
